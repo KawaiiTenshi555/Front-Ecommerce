@@ -10,6 +10,7 @@ import Error from './pages/404';
 import Ordersum from './pages/OrderSummary';
 import Product from './components/Products';
 import ShoppingCard from './pages/ShoppingCard';
+import Contact from './pages/Contact';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/ordersum" element={<Ordersum />} />
         <Route path="/product" element={<Product />} />
         <Route path="/shoppingcard" element={<ShoppingCard />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
